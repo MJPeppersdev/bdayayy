@@ -1,0 +1,41 @@
+#github-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    z-index: 10;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: url("mjplogo.png");
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
+    transition: all 0.25s;
+}
+
+#github-link:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 6px #efefef;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+}
+p {
+    font-size: 13px;
+    line-height: 10px;
+    background:  url(https://github.com/MJPeppersdev/bdayayy/blob/master/dance.gif) no-repeat; 
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0) ;
+    font-weight: 900;
+    margin: 0;
+
+}
