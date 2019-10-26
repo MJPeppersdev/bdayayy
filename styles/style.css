@@ -28,7 +28,7 @@ body {
 p {
     font-size: 13px;
     line-height: 10px;
-    background:  url(dance.gif) no-repeat; 
+    background:  url(/dance.gif) no-repeat; 
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
